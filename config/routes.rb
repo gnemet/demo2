@@ -1,4 +1,4 @@
-DemoApp::Application.routes.draw do
+Demo2::Application.routes.draw do
   resources :controllers
 
   get "users/update"
