@@ -36,3 +36,7 @@ group :development, :test do
   gem "rspec-rails", ">= 2.8.1"
   gem 'guard-rspec', '2.5.0'
 end
+
+group :test do
+  gem 'factory_girl_rails', '4.2.1'
+end

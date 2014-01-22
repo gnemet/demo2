@@ -2,7 +2,7 @@ Demo2::Application.routes.draw do
   resources :microposts
   resources :users
 #  get "users/update"
-  get "users/new"
+#  get "users/new"
 #  get "static_pages/home"
 =begin
  get "static_pages/help"
